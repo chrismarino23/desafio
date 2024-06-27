@@ -10,7 +10,7 @@ const calculaParcela = (vlr) => {
       vlr = vlr / qtdParcela;
     }
 
-    console.log(`O valor da ${i}a parcela é de R$ ${vlr.toFixed(2)}`);
+    alert(`O valor da ${i}a parcela é de R$ ${vlr.toFixed(2)}`);
   }
 };
 
